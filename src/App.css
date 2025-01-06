@@ -1,0 +1,85 @@
+/* src/App.css */
+
+/* Global styles */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0;
+  color: #333;
+}
+
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+  background-color: #e8f4f8;
+}
+
+.weather-container {
+  background-color: #ffffff;
+  border-radius: 8px;
+  padding: 30px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+  margin: 0 15px;
+}
+
+.weather-container h1 {
+  font-size: 2em;
+  margin-bottom: 20px;
+  color: #4caf50;
+}
+
+.weather-container input {
+  padding: 10px;
+  width: 70%;
+  margin-right: 10px;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+}
+
+.weather-container button {
+  padding: 10px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.weather-container button:hover {
+  background-color: #45a049;
+}
+
+.weather-container input:focus,
+.weather-container button:focus {
+  outline: none;
+}
+
+.weather-info {
+  margin-top: 20px;
+}
+
+.weather-info h2 {
+  font-size: 2.5em;
+  color: #333;
+}
+
+.weather-info p {
+  font-size: 1.2em;
+  margin: 5px 0;
+}
+
+.weather-info p span {
+  font-weight: bold;
+}
+
+.error-message {
+  color: red;
+  font-size: 1.1em;
+}
